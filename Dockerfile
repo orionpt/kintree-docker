@@ -1,4 +1,4 @@
-FROM arm32v7/python:3.10-alpine
+FROM arm32v7/python:3.10-bullseye
 
 #:3.10.7
 
