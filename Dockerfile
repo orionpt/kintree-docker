@@ -1,4 +1,4 @@
-FROM arm32v7/python
+FROM arm32v7/ubuntu
 
 #:3.10.7
 
