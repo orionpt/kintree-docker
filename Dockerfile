@@ -1,5 +1,7 @@
-FROM arm32v7/python:3.10.7
+FROM arm32v7/python
 
-ENV PYTHONUNBUFFERED 1
+#:3.10.7
 
-RUN pip --no-cache-dir install cryptography
+# ENV PYTHONUNBUFFERED 1
+
+# RUN pip --no-cache-dir install cryptography
