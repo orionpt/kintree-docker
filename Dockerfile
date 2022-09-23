@@ -1,4 +1,4 @@
-FROM arm32v7/ubuntu
+FROM arm32v7/python:3.10-alpine
 
 #:3.10.7
 
