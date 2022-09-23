@@ -2,7 +2,7 @@ FROM python:3.10-alpine
 
 ENV PYTHONUNBUFFERED 1
 
-RUN apk add --update \
+RUN apk add --update --no-cache\
   build-base \
   cairo \
   cairo-dev \
